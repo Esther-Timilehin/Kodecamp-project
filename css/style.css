@@ -12,18 +12,16 @@
 .dropdown:hover .dropdown-menu1{
    margin: -35px -100px 0 -210px;
 }
-
 .item2:hover{
     color: #f85A40 !important;
 }
-
 /**global font and color**/
 .pri-bg-col
 {
     background-color: #008374 !important;
 }
-.sec-bg-col{
-    color: #006A5D !important;
+.sec2-bg-col{
+    background-color: #FFFFFF;
 }
 .pri-text-col{
     color: #FFFFFF !important;
@@ -82,7 +80,6 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imag
     position: relative;
     top: 50px;
 }
-
 /***swiper***/
 .swiper {
     width: 100%;
@@ -143,78 +140,24 @@ html, body{
 left: -20px;    
 font-size: 13px !important;
     }
-
-    .first
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .first .btn{
-width: 150px !important;
-margin-left: 10px !important;
-    }
     
 }
-/***Mobile***/
-@media (max-width: 450px) {
-.Contact-me .para2{
-width: 180px !important;
-}
-
-.email{
-    margin-top: -10px !important;
-}
-}
-
   /***Tablet****/
   @media (min-width: 766px) and (max-width: 991px) {
     html, body{
         overflow-x: hidden;
         max-width: 100%;
     }
-
-    .hero1{
-        height: 1500px !important
-    }
-
-    .row-container{
-        margin-top: -700px !important;
-    }
-
-    .big-section
-    {
-        height: 7500px !important;
-    }
-
     .img-container
     {
        position: relative;
        right: 100px;
     }
-
-    .card{
-        width: 20rem !important;
+    .big-section
+    {
+        height: 7500px !important;
     }
-
-
-    .call-to-action{
-        margin-top: 70px !important;
-    }
-
-    .Services{
-        height: 1400px !important;
-    }
-
-    .email{
-        margin-top: 5px !important;
-    }
-
-    .swiper-images{
-        margin-top: 30px !important;
-    }
-
-  }
+}
 
   /*******Laptop*********/
   @media(min-width: 992px) and (max-width: 1199px)
@@ -273,95 +216,19 @@ width: 180px !important;
      }
 
      .hero1{
-height: 1100px !important
+height: 1700px !important
      }
 
      .hero3{
      position: relative;
-     top: 600px
-     }
-
-     .row-container .card{
-        height: 200px !important
-     }
-
-    .About-Section{
-        margin-top: -400px;
-        height: 400px !important;
+     top: -20px
      }
 
      .swiper-images{
-        position: relative;
-        top: 1650px;
+        margin-top: -800px;
      }
 
-     .call-to-action{
-        position: relative;
-        top: 400px
-     }
-
-     .call-to-action .first{
-        position: relative;
-        left: 350px
-       }
-    
-     .Our-services{
-        position: relative;
-    top: -600px;
-     }
-
-     .Services{
-        margin-top: 1900px !important;
-     }
-
-     .testimonials{
-        margin-top: -430px !important;
-     }
-
-     .testimonial-container{
-        position: absolute;
-        bottom: -3150px
-     }
-     
-
-    .about-me{
-        margin-top: 400px;
-    }
-
-    .about-me p{
-        font-size: 20px !important;
-    }
-    .first-section
-    {
-        position: absolute;
-        top: 900px;
-    }
-
-    .big-section{
-        height: 5900px !important
-    }
-
-    .swiper{
-        margin-top: 920px;
-    }
-
-    .call-to-action{
-        margin-top: 1300px;
-    }
-
-    .Services .card{
-        width: 18rem !important;
-        height: 370px !important;
-    }
-
-    .Services{
-        height: 1100px !important;
-    }
-    .Services .row{
-        margin-top: -600px;
-    }
-
-    .form-control{
+     .form-control{
         width: 900px !important;
     }
 
@@ -370,10 +237,14 @@ height: 1100px !important
         height: 50px !important;
     }
 
-    .Contact-me{
-        margin-top: 10px !important;
-    }
+    .call-to-action .first{
+        position: relative;
+        left: 350px
+       }
 
+       .big-section{
+        height: 5900px !important;
+       }
   }
   /***Desktop***/
   @media (min-width: 1200px) and (max-width: 2560px) {
@@ -381,7 +252,6 @@ height: 1100px !important
         overflow-x: hidden;
         max-width: 100%;
     }
-
     .Impact-heading{
        position: absolute;
         top: 200px;
@@ -524,5 +394,3 @@ margin-top: -200px !important;
     margin: 70px 0 0 70px;
 }
   }
-
-
