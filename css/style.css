@@ -9,9 +9,6 @@
     display: block;
 }
 
-.dropdown:hover .dropdown-menu1{
-   margin: -35px -100px 0 -210px;
-}
 .item2:hover{
     color: #f85A40 !important;
 }
@@ -20,41 +17,25 @@
 {
     background-color: #008374 !important;
 }
-.sec2-bg-col{
-    background-color: #FFFFFF;
-}
+
 .pri-text-col{
     color: #FFFFFF !important;
 }
+
 .sec-text-col{
-    color: #FFFFFF99 !important;
-}
-.nav-font{
-    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF99;
 }
 .brand-font
 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
-.line
-{
-    border-bottom: 2px solid #F96F59;  
-    width: 60px;
-    margin-top: 1px;
-}
+
 .line1
 {
     border-bottom: 3px solid #006A5D;  
     width: 60px;
     margin-top: 1px;
-}
-.item1:hover
-{
-    border-bottom: 2px solid #F96F59;  
-    color: #FFFFFF !important;
-    width: 100%;
-    transition: all ease-in-out 0.1s;
 }
 /***Button****/
 .first .btn
@@ -75,10 +56,11 @@
 {
 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cta-bg.jpg) center center;
     background-size: cover;
-    padding: 120px 60px;
+    padding: 10px 30px!important;
+    height: 600px;
     border-radius: 15px;
     position: relative;
-    top: 50px;
+    top: 50px;**/
 }
 /***swiper***/
 .swiper {
@@ -89,62 +71,10 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imag
     width: 100%;    
   }
 
-/***Mobile query***/
-@media (min-width: 320px) and (max-width: 1024px) {
-    html, body{
-        overflow-x: hidden;
-        max-width: 100%;
-    }
 
-  .item1:hover
-  {
-    color: #FFFFFF !important;
-    border-bottom: 1px solid transparent;
-    transition: none;
-  }
-
-  .dropdown:hover > .dropdown-menu
-{
-    display: block;
-    
-}
-
-.dropdown-menu2:hover .dropdown-menu1
-{
-    display: block;
-    
-}
-
-.dropdown:hover .dropdown-menu1{
-   margin: 15px 0 0 10px;
-   width: 50%;
-}
-
-.line
-{
-    display: none;
-}
-  }
-/**Mobile***/
-  @media (max-width: 419px)
-   {  
-html, body{
-        overflow-x: hidden;
-        max-width: 100%;
-    }
-
-    .mobile-para{
-
-    position: relative;
-    top: -8px;
-left: -20px;    
-font-size: 13px !important;
-    }
-    
-}
   /***Tablet****/
   @media (min-width: 766px) and (max-width: 991px) {
-    html, body{
+    /**html, body{
         overflow-x: hidden;
         max-width: 100%;
     }
@@ -152,7 +82,7 @@ font-size: 13px !important;
     {
        position: relative;
        right: 100px;
-    }
+    }**/
     .big-section
     {
         height: 7500px !important;
@@ -210,10 +140,10 @@ font-size: 13px !important;
          right: 300px;
      }
 
-     .img-container{
+     /**.img-container{
         position: relative;
         top: -90px;
-     }
+     }**/
 
      .hero1{
 height: 1700px !important
@@ -221,14 +151,14 @@ height: 1700px !important
 
      .hero3{
      position: relative;
-     top: -20px
+     top: 10px
      }
 
      .swiper-images{
         margin-top: -800px;
      }
 
-     .form-control{
+     /**.form-control{
         width: 900px !important;
     }
 
@@ -244,7 +174,7 @@ height: 1700px !important
 
        .big-section{
         height: 5900px !important;
-       }
+       }***/
   }
   /***Desktop***/
   @media (min-width: 1200px) and (max-width: 2560px) {
@@ -324,11 +254,6 @@ justify-content: flex-start;
    .Call-to-action{
 margin-top: -600px;    
 height: 700px !important
-   }
-
-   .call-to-action .first{
-    position: relative;
-    left: 300px
    }
 
     .Services
