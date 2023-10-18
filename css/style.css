@@ -9,6 +9,17 @@
     color: #FFFFFF;
     font-size: 15px;;
 }
+
+@media (min-width: 320px) and (max-width: 991px)
+{
+    .call-to-action{
+        height: 700px !important;
+    }
+
+    .call-to-action .first{
+        margin: -200px 0 0 270px;
+    }
+}
   @media (min-width: 766px) and (max-width: 991px) {
     .big-section
     {
@@ -64,7 +75,8 @@ height: 1700px !important
     }
     .call-to-action .first{
         position: relative;
-        left: 350px
+        top: -130px;
+        left: 50px;
        }
        .big-section{
         height: 5900px !important;
