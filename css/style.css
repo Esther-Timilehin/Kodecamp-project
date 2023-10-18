@@ -1,17 +1,13 @@
-.pri-text-col{
-    color: #FFFFFF !important;
-}
 .first .btn
-{
-    background-color: #FFFFFF1A; 
+{background-color: #FFFFFF1A; 
     height: 53px; 
     width: 150px;
     position: relative;
   right: 50px;
   top: -40px;
-    color: #FFFFFF;
-    font-size: 15px;
     font-weight: 900;
+    color: #FFFFFF;
+    font-size: 15px;;
 }
   @media (min-width: 766px) and (max-width: 991px) {
     .big-section
