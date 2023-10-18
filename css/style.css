@@ -1,36 +1,20 @@
-
-/**Dropdown menu***/
-.dropdown:hover > .dropdown-menu
-{
-    display: block;   
-}
-.dropdown-menu2:hover .dropdown-menu1
-{
-    display: block;
-}
-
-.item2:hover{
-    color: #f85A40 !important;
-}
 /**global font and color**/
 .pri-bg-col
 {
     background-color: #008374 !important;
 }
-
 .pri-text-col{
     color: #FFFFFF !important;
 }
 
 .sec-text-col{
-    color: #FFFFFF99;
+    color: #FFFFFF99 !important;
 }
 .brand-font
 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
-
 .line1
 {
     border-bottom: 3px solid #006A5D;  
@@ -50,35 +34,16 @@
     font-size: 15px;
     font-weight: 900;
 }
-
-/***Call to action image***/
-.call-to-action
-{
-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cta-bg.jpg) center center;
-    background-size: cover;
-    padding: 10px 30px!important;
-    height: 600px;
-    border-radius: 15px;
-    position: relative;
-    top: 50px;**/
-}
 /***swiper***/
 .swiper {
-    width: 100%;
-    
+    width: 100%; 
   }
   .swiper-one {
     width: 100%;    
   }
-
-
   /***Tablet****/
   @media (min-width: 766px) and (max-width: 991px) {
-    /**html, body{
-        overflow-x: hidden;
-        max-width: 100%;
-    }
-    .img-container
+    /**.img-container
     {
        position: relative;
        right: 100px;
@@ -88,7 +53,6 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imag
         height: 7500px !important;
     }
 }
-
   /*******Laptop*********/
   @media(min-width: 992px) and (max-width: 1199px)
   {
@@ -96,7 +60,6 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imag
         overflow-x: hidden;
         max-width: 100%;
     }
-
     .Impact-heading{
         position: relative;
          top: -370px;
@@ -105,41 +68,34 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imag
          color: #FFFFFF;
          font-weight: 100;
      }
- 
     .Impact-para{
          position: relative;
          top: -380px;
      left: 2px;
          width: 38%;
-         
      }
- 
      .first
      {
  display: flex;
  justify-content: flex-start;
      }
- 
      .first .btn{
          width: 180px;
          position: relative;
          top: -400px;
          left: 2px;
      }
- 
      .big-icon .icon
      {
          position: relative;
          left: -300px;
          top: -365px;
      }
- 
      .para {
          position: relative;
          top: -365px;
          right: 300px;
      }
-
      /**.img-container{
         position: relative;
         top: -90px;
@@ -190,116 +146,91 @@ height: 1700px !important
         color: #FFFFFF;
         font-weight: 900;
     }
-
     .Impact-para{
         position: relative;
         top: -230px;
     left: 50px;
         width: 38%;
-        
     }
-
     .first
     {
 display: flex;
 justify-content: flex-start;
     }
-
     .first .btn{
         width: 180px;
         position: relative;
         top: -270px;
         left: 100px;
     }
-
     .big-icon .icon
     {
         position: absolute;
         left: -390px;
         top: -240px;
     }
-
     .para {
         position: relative;
         top: -240px;
         right: 380px;
-        
     }
-
-
     .row-container{
     position: relative;
      top: 150px;
      z-index: 1;
-    
     }
-
     .hero1{
         height: 1600px !important;
-      
     }
-
     .About-Section
     {
        position: relative !important;
        top: 200px !important;
     }
-
    .swiper-images
    {
     position: absolute !important;
     top: 2000px;
    }
-
    .Call-to-action{
 margin-top: -600px;    
 height: 700px !important
    }
-
     .Services
 {
     position: relative;
     top: -280px;
     height: 1000px !important;
 }
-
 .swiper-one{
 margin-top: -200px !important;
 }
-
 .testimonial{
     margin-top: -300px;
 }
-
 .testimonial-container{
     margin-top: 100px !important;
 }
-
 .testimonials-col{
     margin-top: 300px;
 }
-
 .Contact-me{
     position: relative;
-    
 }
 
 .big-section{
     height: 5300px !important;
 }
-
 .contact-container .row{
     width: 40% !important;
     margin-left: 70px !important;
 }
-
 .contact-container .form-control{
     
         width: 200% !important;
         margin-top: 5px !important;
         margin-left: 10px;
 }
-
 .input-container{
     position: relative;
     left: 450px;
@@ -308,13 +239,11 @@ margin-top: -200px !important;
     height: 547px !important;
     background-color: #FFFFFF;
 }
-
 .input1{
     width: 200px !important;
     margin: 30px 0 0 -33px;
     height: 50px;
 }
-
 .input-container button{
     margin: 70px 0 0 70px;
 }
